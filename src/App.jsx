@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
+import { HashRouter, Routes, Route } from 'react-router-dom'; 
 import './App.css';
 import HeroSection from "./Components/HeroSection";
 import Hotel from './Components/Hotel';
@@ -20,7 +20,7 @@ import BookNow from './Components/BookNow';
 const App = () => {
   return (
     <div className="bg-gray-900 text-white">
-    <BrowserRouter>
+    <HashRouter basename="/Hotel-Booking-System">
     
       <Routes>
         <Route path='/' element={
@@ -50,7 +50,7 @@ const App = () => {
           <BookNow/>
         } />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 };
