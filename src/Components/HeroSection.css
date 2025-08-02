@@ -1,0 +1,7 @@
+.hero-section{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        
